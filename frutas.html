@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container mt-5">
+        <div class="row text-center">
+            
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Cambur 🍌</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Cambur">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Fresa 🍓</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Fresa">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Pera 🍐</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Pera">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">manzana 🍎</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Manzana">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Sandia 🍉</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Sandia">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Uva 🍇</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Uva">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Cereza 🍒</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Cereza">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Durazno 🍊</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Durazno">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Melon 🍑</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Melon">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Kiwi 🥝</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Kiwi">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Mango 🥭</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Mango">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card title">Piña 🍍</h5>
+                        <button 
+                            class="btn btn-outline-primary"
+                            data-frutas="Piña">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <section class="container mt-3">
+        <ul id="carritoId" class="list-group">
+        </ul>
+    </section>
+    
+    <template id="templateId">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="lead">Bananas 🍌</span>
+            <span class="badge bg-primary rounded-circle">12</span>
+        </li>
+    </template>
+
+
+
+    <script src="frutas.js"></script>
+</body>
+</html>
