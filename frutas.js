@@ -2,7 +2,7 @@
  const templateId = document.getElementById("templateId");
  const fragment = document.createDocumentFragment();
  const botones = document.querySelectorAll(".card .btn");
-
+// array
  const carritoObjeto = [];
 
  const agregarAlCarrito = (e) => {
